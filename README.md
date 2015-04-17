@@ -1,9 +1,7 @@
 # gettingAndCleaningData
 
-Coursera-Getting-and-Cleaning-Data
-==================================
 
-Getting and Cleaning Data Project Assignment Mar 2015
+Getting and Cleaning Data Project Assignment Apr 2015
 
 Data used for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
