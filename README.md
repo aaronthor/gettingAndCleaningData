@@ -25,11 +25,23 @@ Extracting measurements on the mean and standard deviation from features.txt, re
 
 3. Uses descriptive activity names to name the activities in the data set
 Reading from activity_labels.txt and applying descriptive activity names to activities within the data set consisting of the following:
-(i)walking, (ii)walkingupstairs, (iii)walkingdownstairs, (iv)sitting, (v)standing, (vi)laying
+  1. walking
+  2. walkingupstairs
+  3. walkingdownstairs
+  4. sitting
+  5. standing
+  6. laying
 
 4. Appropriately labels the data set with descriptive variable names. 
 Attributes and activity names are uniformly converted to a common denorminator: all lower cased letters, with underscoring and parenthesis removed. Merging of data frame containing features and activity labels and subject IDs, and storing the output in as part4-combinedDataset.txt. Subject IDs and activity names make up the first 2 columns, and the remaining 66 columns refer to measurement readings. Note that the Subject IDs are integers in the range bewteen 1 to 30. Attribute names are:
-(i)tbodyacc-mean-x, (ii)tbodyacc-mean-y, (iii)tbodyacc-mean-z, (iv)tbodyacc-std-x, (v)tbodyacc-std-y, (vi)tbodyacc-std-z, (vii)tgravityacc-mean-x, (viii)tgravityacc-mean-y
+  1. tbodyacc-mean-x
+  2. tbodyacc-mean-y
+  3. tbodyacc-mean-z
+  4. tbodyacc-std-x
+  5. tbodyacc-std-y
+  6. tbodyacc-std-z
+  7. tgravityacc-mean-x
+  8. tgravityacc-mean-y
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 A second independent tidy data set with the average of each measurement for each activity and each subject is created, with a data frame of 180x68 stored as part5-independentAverageActivitySubject.txt
